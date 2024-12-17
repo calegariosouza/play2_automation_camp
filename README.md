@@ -11,6 +11,7 @@ Obs: O botão de submit da pagina está configurada para ser redirecionada para 
   - Validações de interações com botões
   - Validações de campos
   - Testes básicos de **UI** e funcionalidades interativas.
+  - Todas as informações estão fixas.
 - **Tecnologias Utilizadas**:
   - **Cypress**: Framework para automação de testes end-to-end.
   - **JavaScript**: Linguagem utilizada para a criação dos testes.
