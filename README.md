@@ -1,6 +1,7 @@
 # Automação em Cypress - Projeto Play2 Automation Camp
 
 Este projeto foi criado para implementar uma **automação de testes** com o uso do **Cypress** no site **play2.automationcamp**. O objetivo do projeto é assegurar a excelência e o desempenho adequado do sistema, executando testes automáticos em componentes da interface do usuário e nas funcionalidades do site.
+Obs: O botão de submit da pagina está configurada para ser redirecionada para a tela incial do google. Com isso as informações não podem ser encaminhandas.
 
 ## Versões
 
