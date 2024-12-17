@@ -4,6 +4,15 @@ describe('template spec', () => {
     cy.contains('Your Sample Alert Button!').click()
     cy.contains('You Pressed the OK Button!')
     cy.contains('Double-click me').dblclick();
+
+    cy.get('#uname').type('test')
+    cy.get('#pwd').type('test')
+
+    cy.get('input[type="Submit"]').contains('Login').click()
+
+    cy.contains('Login Successful :)')
+    cy.contains('Click here to go back to the home page')
+    cy.contains('here').click()
     
     cy.get('#fname').type('João Victor')
     cy.get('#lname').type('Calegário')
