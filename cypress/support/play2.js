@@ -9,7 +9,9 @@ const homePlay2 = {
         userLogin: '#uname',
         passwordLogin: '#pwd',
         firstName: 'fname',
-        lastName: '#lname'
+        lastName: '#lname',
+        date: 'input[type="date"]',
+        quantity: '#quantity'
 
     },
     values: {
@@ -18,6 +20,8 @@ const homePlay2 = {
         option1: 'Option 1',
         option3: 'Option 3',
         genderMale: 'Male',
+        optionChocolate: 'Chocolate',
+        date: '2024-06-16'
 
     },
     labels: {
@@ -31,6 +35,10 @@ const homePlay2 = {
     },
     checkBox: {
         option: 'input[type="checkbox"]',
+    },
+    select: {
+        option: 'input[name="Options"]',
+        color: '#favcolor',
     }
 };
 
