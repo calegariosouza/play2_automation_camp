@@ -1,3 +1,4 @@
+import { homePlay2 } from "../support/play2"
 describe('template spec', () => {
   it('click buttons', () => {
     cy.visit('https://play2.automationcamp.ir/')
@@ -26,6 +27,7 @@ describe('template spec', () => {
     cy.get('input[type="color"]').invoke('val', '#FF1566')
     cy.get('input[type="date"]').type('2024-06-16')
     cy.get('#quantity').type('5')
+    
     // O botão de submit está programado para redirecionar para a tela inicial de pagina de pesquisa do google.
 
   })
