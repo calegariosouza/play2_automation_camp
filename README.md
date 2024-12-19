@@ -5,7 +5,7 @@ Obs: O botão de submit da pagina está configurada para ser redirecionada para 
 
 ## Versões
 
-### **Versão 1.0**
+### **Versão 1.0.0**
 - **Objetivo**: Nesta versão, o objetivo principal foi aprimorar o projeto de automação para assegurar a verificação e funcionalidade dos componentes da página, tais como botões e campos de preenchimento.
 - **Principais Funcionalidades**:
   - Validações de interações com botões
@@ -15,6 +15,9 @@ Obs: O botão de submit da pagina está configurada para ser redirecionada para 
 - **Tecnologias Utilizadas**:
   - **Cypress**: Framework para automação de testes end-to-end.
   - **JavaScript**: Linguagem utilizada para a criação dos testes.
+
+ ### **Versão 1.0.1**
+- **Objetivo**: Nesta versão, o principal objetivo foi aprimorar o projeto de automação, implementando arquivos de constantes para centralizar todos os elementos em um único local. Dessa forma, os seletores e valores (values) foram movidos para o arquivo play2.js, permitindo que sejam referenciados diretamente no arquivo principal. Com essa abordagem, quaisquer alterações nos valores ou seletores podem ser feitas em um único arquivo, tornando a manutenção do código mais ágil e eficiente.
   
 ## Instalação
 
