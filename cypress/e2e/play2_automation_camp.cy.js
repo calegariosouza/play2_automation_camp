@@ -28,7 +28,5 @@ describe('template spec', () => {
     cy.get(homePlay2.Inputs.date).type(homePlay2.values.date)
     cy.get(homePlay2.Inputs.quantity).type('5')
     
-    // O botão de submit está programado para redirecionar para a tela inicial de pagina de pesquisa do google.
-
   })
 })
